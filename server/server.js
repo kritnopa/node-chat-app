@@ -9,5 +9,5 @@ const app = express();
 app.use(express.static(publicPath));
 
 app.listen(3000, () => {
-	console.log(`Server is up on port ${port}!`);
+	console.log(`Server is up on port ${port}! with heroku`);
 })
